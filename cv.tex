@@ -1,0 +1,174 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+\documentclass[letterpaper,11pt]{article}
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{shading}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+\newcommand{\ressubheadingsimple}[1]{
+		\textbf{#1} \\
+\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large{Dominique Dierickx}}  & +32498242841\\
+Oudenaardsestraat 27 box 1 &  d.dierickx@gmail.com\\
+9500 Geraardsbergen, BE & http://www.dominiek.eu\\
+\end{tabular*}
+\vspace{0.1in}
+\hline
+\vspace{0.1in}
+\resheading{Facts}
+
+\begingroup
+\leftskip3em
+
+\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}} l l }
+  Gender & Male \\
+  Nationality & Belgian \\
+  Mother tongue & Dutch  \\
+  Date of birth & May 29$^{th}$, 1986 \\
+  Civil status & Cohabiting \\
+  Myers-Briggs  & ENTP  \\
+\end{tabular*}
+\\
+
+\endgroup
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{Koninklijk Technisch Atheneum Geraardsbergen}{Geraardsbergen}{Latin - Mathematics}{1998 - 2004}
+\\
+
+\item
+	\ressubheading{Hogeschool Gent}{Ghent}{Bachelor in Applied Computer Science}{2004-2007}
+	\begin{itemize}
+		\resitem{Graduated with honor.}
+		\resitem{Internship at Ordina Belgium.}
+	\end{itemize}
+
+\item
+	\ressubheading{Vrije Universiteit Brussel}{Brussels}{Master in Applied Computer Science}{2007-2009}
+	\begin{itemize}
+		\resitem{Graduated with great honor.}
+		\resitem{Master's thesis: ``Supporting smart entity behavior across virtual environment platforms''.}
+	\end{itemize}
+
+\end{itemize}
+
+
+\resheading{Certifications}
+\begin{itemize}
+\item
+	\ressubheadingsimple{Microsoft Certified Professional (MCP)}
+	\begin{itemize}
+		\resitem{Microsoft .NET Framework - Application Development Foundation (70-536).}
+		\resitem{Microsoft .NET Framework 3.5 - Windows Forms Application Development (70-505).}
+		\resitem{Microsoft SQL Server 2008 - Database Development (70-433).}
+	\end{itemize}
+\end{itemize}
+
+\clearpage
+
+\resheading{Work Experience}
+\begin{itemize}
+
+\item
+	\ressubheading{Ordina Belgium NV}{Merelbeke}{Software developer (internship)}{February 2006 - April 2006}
+	\begin{itemize}
+		\resitem{Implemented an enterprise knowledge management system.}
+		\resitem{Service-oriented architecture.}
+		\resitem{Worked in team.}
+	\end{itemize}
+
+\item
+	\ressubheading{Sanorice Belgium NV}{Zottegem}{Software developer (vacation job)}{Summer 2006, 2007 and 2008}
+	\begin{itemize}
+		\resitem{Implemented a stock management system.}
+		\resitem{Implemented a quality control system.}
+	\end{itemize}
+
+\item 
+	\ressubheading{Adenti NV}{Zottegem}{Software developer}{September 2009 - January 2011}
+	\begin{itemize}
+		\resitem{Development of a web-based tracking and tracing system using Microsoft Silverlight.}
+		\resitem{Extending and improving the inhouse rapid application development framework using the Microsoft .NET Framework and SQL Server.}
+		\resitem{E-commerce web development using ASP.NET (AJAX).}
+	\end{itemize}
+
+\item
+	\ressubheading{TomTom Belgium NV}{Ghent}{Software Engineer in Research \& Development}{February 2011 - December 2011}
+	\begin{itemize}
+		\resitem{Technical analysis and implementation of EU funded projects.}
+		\resitem{Internal projects.}
+		\resitem{Re-oriented because of company restructuring.}
+	\end{itemize}
+
+\item
+	\ressubheading{TomTom Belgium NV}{Ghent}{Software Engineer in the Content Production Unit}{January 2012 - now()}
+	\begin{itemize}
+		\resitem{Development of map creation \& conversion tools.}
+	\end{itemize}
+	
+\end{itemize}
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+Java, Microsoft .NET (C\#), JavaScript, Python, Haskell.
+\item[Frameworks \& tools:]
+Spring, Hibernate, JUnit, Mockito, jQuery, Jenkins, svn, git.
+\item[Databases:]
+Microsoft SQL Server, MySQL, PostgreSQL.
+\item[Platforms:]
+Microsoft Windows and Unix. Familiar with Android development.
+\item[Principles:]
+Database design, Object-oriented design patterns, algorithms, Agile \& scrum methodology, test-driven development.
+\end{description}
+
+\resheading{In a nutshell...}
+\begin{quote}
+\textit{``I am a driven, social person, interested in various fields and developments in computer science. My strongest points are my technical expertise, my eagerness to learn new things and my social skills. I have gained relevant experience through personal as well as professional projects and it is fair to say that software development is more of a passion than a profession in my life. In my spare time, I enjoy playing basketball, reading, experimenting with new technology, creating stuff and watching movies.''}\\
+\vspace{0.1in}
+More information can be found on my personal website!
+\end{quote}
+ 
+\end{document}
