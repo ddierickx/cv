@@ -28,6 +28,7 @@
 \usepackage{shading}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{graphicx}
 \usepackage{xcolor}
 %\textheight=9.0in
 \pagestyle{fancy}
@@ -73,72 +74,70 @@
 	
 	\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}} l l }
 		Gender & Male \\
-		E-mail Address & d.dierickx@gmail.com \\
+		E-mail address & \href{mailto:d.dierickx@gmail.com}{d.dierickx@gmail.com} \\
 		Nationality & Belgian \\
 		Mother tongue & Dutch  \\
-		Date of birth & May 29$^{th}$, 1986 \\
-		Civil status & Married \\
 	\end{tabular*}
 	\\
 	
 	\endgroup
-
+	
 	\hfill \break
-\resheading{Work Experience}
-
-\begin{itemize}
+	\resheading{Work Experience}
 	
-	\item
-	\ressubheading{Showpad}{Ghent}{Principal Software Engineer}{November 2019 - now()}
 	\begin{itemize}
-		\resitem{Maintenance, bugfixing, evolution and monitoring of the SaaS-platform.}
-		\resitem{Technical coordination and communication across teams.}
+		
+		\item
+		\ressubheading{Showpad}{Ghent}{Principal Software Engineer}{November 2019 - now()}
+		\begin{itemize}
+			\resitem{Maintenance, bugfixing, evolution and monitoring of the SaaS-platform.}
+			\resitem{Technical coordination and communication across teams.}
+		\end{itemize}
+		
+		\item
+		\ressubheading{Cegeka NV}{Ghent}{Application Architect}{January 2019 - November 2019}
+		\begin{itemize}
+			\resitem{Discuss requirements and feasibility with customers.}		
+			\resitem{Project estimation and cost calculation.}	
+			\resitem{Implementing the designed architectures together with the teams.}
+			\resitem{Mentoring}
+		\end{itemize}
+		
+		\item
+		\ressubheading{TomTom NV}{Ghent}{Senior Software Architect in the Maps Unit}{January 2017 - January 2019}
+		\begin{itemize}
+			\resitem{Discuss requirements and feasibility with internal and external customers.}		
+			\resitem{Designing and evolving our software architecture.}	
+			\resitem{Implementing the designed architectures together with the teams.}
+			\resitem{Technical coordination and communication across teams.}
+		\end{itemize}
+		
+		\item
+		\ressubheading{TomTom NV}{Ghent}{Expert Software Engineer in the Maps Unit}{January 2012 - January 2017}
+		\begin{itemize}
+			\resitem{Development of scalable map creation \& conversion tools.}
+			\resitem{Design \& Development of B2B map delivery systems.}
+			\resitem{Deployment and production support.}
+		\end{itemize}
+		
+		\item
+		\ressubheading{TomTom NV}{Ghent}{Software Engineer in the Research \& Development Unit}{February 2011 - December 2011}
+		\begin{itemize}
+			\resitem{Technical analysis and implementation of EU funded projects.}
+			\resitem{Internal research projects.}
+		\end{itemize}
+		
+		\item 
+		\ressubheading{Adenti NV}{Zottegem}{Software developer}{September 2009 - January 2011}
+		\begin{itemize}
+			\resitem{Development of a web-based tracking and tracing system.}
+			\resitem{Extending and improving the inhouse rapid application development framework.}
+			\resitem{E-commerce web development.}
+		\end{itemize}
+		
 	\end{itemize}
 	
-	\item
-	\ressubheading{Cegeka Belgium NV}{Ghent}{Application Architect}{January 2019 - November 2019}
-	\begin{itemize}
-		\resitem{Discuss requirements and feasibility with customers.}		
-		\resitem{Project estimation and cost calculation.}	
-		\resitem{Implementing the designed architectures together with the teams.}
-		\resitem{Mentoring}
-	\end{itemize}
-	
-	\item
-	\ressubheading{TomTom Belgium NV}{Ghent}{Senior Software Architect in the Maps Unit}{January 2017 - January 2019}
-	\begin{itemize}
-		\resitem{Discuss requirements and feasibility with internal and external customers.}		
-		\resitem{Designing and evolving our software architecture.}	
-		\resitem{Implementing the designed architectures together with the teams.}
-		\resitem{Technical coordination and communication across teams.}
-	\end{itemize}
-	
-	\item
-	\ressubheading{TomTom Belgium NV}{Ghent}{Expert Software Engineer in the Maps Unit}{January 2012 - January 2017}
-	\begin{itemize}
-		\resitem{Development of scalable map creation \& conversion tools.}
-		\resitem{Design \& Development of B2B map delivery systems.}
-		\resitem{Deployment and production support.}
-	\end{itemize}
-	
-	\item
-	\ressubheading{TomTom Belgium NV}{Ghent}{Software Engineer in the Research \& Development Unit}{February 2011 - December 2011}
-	\begin{itemize}
-		\resitem{Technical analysis and implementation of EU funded projects.}
-		\resitem{Internal research projects.}
-	\end{itemize}
-	
-	\item 
-	\ressubheading{Adenti NV}{Zottegem}{Software developer}{September 2009 - January 2011}
-	\begin{itemize}
-		\resitem{Development of a web-based tracking and tracing system.}
-		\resitem{Extending and improving the inhouse rapid application development framework.}
-		\resitem{E-commerce web development.}
-	\end{itemize}
-	
-\end{itemize}
-	
-		\hfill \break
+	\hfill \break
 	\resheading{Education}
 	\begin{itemize}
 		
@@ -166,24 +165,25 @@
 	
 	\begin{description}
 		\item[Languages:]
-		Java, Kotlin, Python, Javascript, Typescript, Bash
+		Java, Kotlin, Python, Javascript, Typescript, Shell scripting
 		\item[Frameworks \& tools:]
-		Spring (Boot), Micronaut, IntelliJ, JUnit, Testcontainers, Docker
+		Spring (Boot), Micronaut, IntelliJ, VSCode, JUnit, Testcontainers, Docker
 		\item[Databases:]
 		PostgreSQL, MySQL, SQLite, ElasticSearch
 		\item[Platforms:]
 		Amazon Web Services, Kubernetes
 		\item[Principles:]
-		API design \& socumentation, event-driven, software architecture principles, DDD, CI/CD, testing, devops, geospatial information systems, large-scale data processing techniques and algorithms, networking, OWASP, security.
+		API design \& documentation, event-driven, software architecture, DDD, CI/CD, testing, devops.
+		\item[Interests:]
+		Artificial intelligence, cybersecurity, Geospatial Information Systems (GIS), large-scale data solutions, algorithms
 	\end{description}
 	
 	
 	\resheading{In a nutshell...}
-	\begin{quote}
-		\textit{``I am a driven, social person, interested in various fields and developments in computer science. My strongest points are my technical expertise, my eagerness to learn new things and my social skills. I have gained relevant experience through personal as well as professional projects and it is fair to say that software development is more of a passion than a profession in my life. In my spare time, I enjoy running, reading, experimenting with new technology and spending time with my wife and our two boys.''}\\
-		\vspace{0.1in}
-		More information can be found on my 
-		\href{https://www.dominiek.eu}{personal website}.
-	\end{quote}
+	I am a driven, social person, interested in various fields and developments in computer science. My strongest points are my technical expertise, my eagerness to learn new things and my social skills. I have gained relevant experience through personal as well as professional projects and it is fair to say that software development is more of a passion than a profession in my life. In my spare time, I enjoy running, reading, experimenting with new technology and spending time with my wife and our two boys.
+	\vspace{0.1in}
+	
+	\resheading{I am looking for}
+	A position where I can make a difference and get things done. Working closely together with all stakeholders for the best possible outcome. In an environment that nurtures engineering culture, learning and knowledge sharing.
 	
 \end{document}
