@@ -35,7 +35,7 @@
 
 \fancyhead{}
 \fancyhead[RE,LO]{\textbf{\Large{Dominique Dierickx}}}
-\fancyhead[LE,RO]{\href{https://www.dominiek.eu}{https://www.dominiek.eu}}
+\fancyhead[LE,RO]{\href{https://www.dominiek.eu}{dominiek.eu}}
 \fancyfoot{}
 \fancyfoot[LE,LO]{\textcolor{gray}{\input{version.info}}}
 \fancyfoot[RO, RE]{\thepage}
@@ -66,7 +66,6 @@
 	\end{tabular*}
 	
 	\vspace{0.1in}
-	\vspace{0.1in}
 	\resheading{Facts}
 	
 	\begingroup
@@ -81,63 +80,68 @@
 	\\
 	
 	\endgroup
-	
-	\hfill \break
+
 	\resheading{Work Experience}
 	
 	\begin{itemize}
 		
 		\item
 		\ressubheading{Showpad}{Ghent}{Principal Software Engineer}{November 2019 - now()}
-		\begin{itemize}
-			\resitem{Maintenance, bugfixing, evolution and monitoring of the SaaS-platform.}
-			\resitem{Technical coordination and communication across teams.}
-		\end{itemize}
+		 \break	 
+		\begin{flushleft}
+		I have been part of several teams, working on the core CMS capabilities of the Showpad SaaS platform. As a principal engineer, I am involved in designing and implementing new product features for our customers together with the teams and other stakeholders. We leverage AWS where appropriate to offer a scalable, cost-efficient and secure solution globally.
 		
+		Key skills: AWS, SaaS, Kotlin, TypeScript, ElasticSearch, ANTLR (\href{https://developer.showpad.com/docs/apis/content/showql}{ShowQL}), Security, Monitoring
+		\end{flushleft}
+
 		\item
 		\ressubheading{Cegeka NV}{Ghent}{Application Architect}{January 2019 - November 2019}
-		\begin{itemize}
-			\resitem{Discuss requirements and feasibility with customers.}		
-			\resitem{Project estimation and cost calculation.}	
-			\resitem{Implementing the designed architectures together with the teams.}
-			\resitem{Mentoring}
-		\end{itemize}
+		\break
+		\begin{flushleft}
+		As an Application Architect I was involved in the inception and development of a new platform for job candidate matching. Next to this, I also worked on requirement study, cost calculation and project presentations for prospects.
+		
+		Key skills: Java, Spring Boot, Kubernetes, OpenAPI, ElasticSearch
+		\end{flushleft}		
 		
 		\item
 		\ressubheading{TomTom NV}{Ghent}{Senior Software Architect in the Maps Unit}{January 2017 - January 2019}
-		\begin{itemize}
-			\resitem{Discuss requirements and feasibility with internal and external customers.}		
-			\resitem{Designing and evolving our software architecture.}	
-			\resitem{Implementing the designed architectures together with the teams.}
-			\resitem{Technical coordination and communication across teams.}
-		\end{itemize}
+		\begin{flushleft}
+			As a software architect, I took the lead of the team designing and developing a new map delivery platform to replace a legacy (DVD-based) platform. This was developed in an API-first approach and is the main entrypoint for map customers. Next to this I was also involved in architectural decisions and guidelines within the unit.
+			\break
+			Key skills: Java, Spring Boot, OpenAPI, AWS, Redis, Kubernetes, Security
+		\end{flushleft}
 		
 		\item
 		\ressubheading{TomTom NV}{Ghent}{Expert Software Engineer in the Maps Unit}{January 2012 - January 2017}
-		\begin{itemize}
-			\resitem{Development of scalable map creation \& conversion tools.}
-			\resitem{Design \& Development of B2B map delivery systems.}
-			\resitem{Deployment and production support.}
-		\end{itemize}
+		\begin{flushleft}
+			As a software engineer, I worked in different teams responsible for transforming map data from one format and model to another. We leveraged Apache Hadoop and HBase in novel ways to allow faster and higher-quality map delivery to customers.
+			\break
+			Key skills: Java, Hadoop, HBase, Avro, Python, GIS, PostGIS, Data modeling
+		\end{flushleft}
 		
 		\item
 		\ressubheading{TomTom NV}{Ghent}{Software Engineer in the Research \& Development Unit}{February 2011 - December 2011}
-		\begin{itemize}
-			\resitem{Technical analysis and implementation of EU funded projects.}
-			\resitem{Internal research projects.}
-		\end{itemize}
+		\begin{flushleft}
+		Within the R\&D unit, I worked on internal and external research projects. This included working on different visualizations for dynamic map data (driving speeds, parking data, ...) and working together with partners within EU-funded projects to consume governmental or municipal API's to optimize routing and navigation experience.
+		\break
+		Key skills: Java, Spring Boot, Python, Kubernetes, OpenAPI, GIS, PostGIS
+		\end{flushleft}
+			\end{itemize}
 		
+		\pagebreak
+		\hfill
+			\begin{itemize}
+			\vspace{0.2in}
 		\item 
 		\ressubheading{Adenti NV}{Zottegem}{Software developer}{September 2009 - January 2011}
-		\begin{itemize}
-			\resitem{Development of a web-based tracking and tracing system.}
-			\resitem{Extending and improving the inhouse rapid application development framework.}
-			\resitem{E-commerce web development.}
-		\end{itemize}
+		\begin{flushleft}
+		I worked on developing a web-based (AJAX) front-end as well as backend solution for fleet tracking and insurance.
+		\break
+		Key skills: .NET, Silverlight, WCF, SQL Server, T-SQL
+		\end{flushleft}
 		
 	\end{itemize}
-	
-	\hfill \break
+			\vspace{-0.2in}
 	\resheading{Education}
 	\begin{itemize}
 		
@@ -165,21 +169,18 @@
 	
 	\begin{description}
 		\item[Languages:]
-		Java, Kotlin, Python, Javascript, Typescript, Shell scripting
+		Java, Kotlin, Python, Javascript, Typescript, (Unix) shell
 		\item[Frameworks \& tools:]
-		Spring (Boot), Micronaut, IntelliJ, VSCode, JUnit, Testcontainers, Docker
+		Spring (Boot), Micronaut, IntelliJ, VSCode, JUnit, Testcontainers, Docker, Amazon Web Services, Kubernetes, Datadog, Sentry
 		\item[Databases:]
-		PostgreSQL, MySQL, SQLite, ElasticSearch
-		\item[Platforms:]
-		Amazon Web Services, Kubernetes
+		PostgreSQL/PostGIS, MySQL, SQLite, ElasticSearch, OpenSearch
 		\item[Principles:]
 		API design \& documentation, event-driven, software architecture, DDD, CI/CD, testing, devops.
 		\item[Interests:]
-		Artificial intelligence, cybersecurity, Geospatial Information Systems (GIS), large-scale data solutions, algorithms
+		Artificial intelligence, SaaS/API's, cybersecurity, Geospatial Information Systems (GIS), large-scale data solutions, algorithms
 	\end{description}
-	
-	
-	\resheading{In a nutshell...}
+
+	\resheading{In a nutshell}
 	I am a driven, social person, interested in various fields and developments in computer science. My strongest points are my technical expertise, my eagerness to learn new things and my social skills. I have gained relevant experience through personal as well as professional projects and it is fair to say that software development is more of a passion than a profession in my life. In my spare time, I enjoy running, reading, experimenting with new technology and spending time with my wife and our two boys.
 	\vspace{0.1in}
 	
